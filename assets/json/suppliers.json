@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Fresh Foods Co.",
+    "logo": "https://via.placeholder.com/150",
+    "rating": 4.5,
+    "categories": ["Vegetables", "Fruits", "Dairy"],
+    "products": [
+      {
+        "id": 101,
+        "name": "Organic Apples",
+        "image": "https://via.placeholder.com/100",
+        "price": 2.99,
+        "description": "Fresh organic apples from local farms"
+      },
+      {
+        "id": 102,
+        "name": "Carrots",
+        "image": "https://via.placeholder.com/100",
+        "price": 1.49,
+        "description": "Fresh crunchy carrots"
+      },
+      {
+        "id": 103,
+        "name": "Organic Milk",
+        "image": "https://via.placeholder.com/100",
+        "price": 3.99,
+        "description": "Fresh organic milk, 1 liter"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bakery Delights",
+    "logo": "https://via.placeholder.com/150",
+    "rating": 4.2,
+    "categories": ["Bread", "Pastries", "Cakes"],
+    "products": [
+      {
+        "id": 201,
+        "name": "Sourdough Bread",
+        "image": "https://via.placeholder.com/100",
+        "price": 4.99,
+        "description": "Artisan sourdough loaf"
+      },
+      {
+        "id": 202,
+        "name": "Croissant",
+        "image": "https://via.placeholder.com/100",
+        "price": 2.49,
+        "description": "Buttery French croissant"
+      },
+      {
+        "id": 203,
+        "name": "Chocolate Cake",
+        "image": "https://via.placeholder.com/100",
+        "price": 12.99,
+        "description": "Rich chocolate cake, serves 8"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Meat Masters",
+    "logo": "https://via.placeholder.com/150",
+    "rating": 4.7,
+    "categories": ["Beef", "Poultry", "Pork"],
+    "products": [
+      {
+        "id": 301,
+        "name": "Ribeye Steak",
+        "image": "https://via.placeholder.com/100",
+        "price": 15.99,
+        "description": "Premium grass-fed ribeye, 12oz"
+      },
+      {
+        "id": 302,
+        "name": "Chicken Breast",
+        "image": "https://via.placeholder.com/100",
+        "price": 8.99,
+        "description": "Boneless skinless chicken breast, 1lb"
+      },
+      {
+        "id": 303,
+        "name": "Pork Chops",
+        "image": "https://via.placeholder.com/100",
+        "price": 9.99,
+        "description": "Thick-cut pork chops, 2 pieces"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Ocean Fresh",
+    "logo": "https://via.placeholder.com/150",
+    "rating": 4.3,
+    "categories": ["Fish", "Shellfish", "Frozen Seafood"],
+    "products": [
+      {
+        "id": 401,
+        "name": "Salmon Fillet",
+        "image": "https://via.placeholder.com/100",
+        "price": 12.99,
+        "description": "Fresh Atlantic salmon, 8oz"
+      },
+      {
+        "id": 402,
+        "name": "Shrimp",
+        "image": "https://via.placeholder.com/100",
+        "price": 14.99,
+        "description": "Large wild-caught shrimp, 1lb"
+      },
+      {
+        "id": 403,
+        "name": "Tuna Steak",
+        "image": "https://via.placeholder.com/100",
+        "price": 11.99,
+        "description": "Sushi-grade tuna, 6oz"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Beverage World",
+    "logo": "https://via.placeholder.com/150",
+    "rating": 4.0,
+    "categories": ["Juices", "Sodas", "Water"],
+    "products": [
+      {
+        "id": 501,
+        "name": "Orange Juice",
+        "image": "https://via.placeholder.com/100",
+        "price": 3.49,
+        "description": "Fresh squeezed orange juice, 1 liter"
+      },
+      {
+        "id": 502,
+        "name": "Mineral Water",
+        "image": "https://via.placeholder.com/100",
+        "price": 1.99,
+        "description": "Natural spring water, 750ml"
+      },
+      {
+        "id": 503,
+        "name": "Cola",
+        "image": "https://via.placeholder.com/100",
+        "price": 2.49,
+        "description": "Classic cola, 2 liter bottle"
+      }
+    ]
+  }
+]
