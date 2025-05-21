@@ -25,7 +25,6 @@ class ProductCard extends StatelessWidget {
       child: InkWell(
         borderRadius: BorderRadius.circular(12),
         onTap: () {
-          // Optional: Add product detail view
         },
         child: Padding(
           padding: const EdgeInsets.all(16),
