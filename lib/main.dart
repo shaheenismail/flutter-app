@@ -6,6 +6,7 @@ import 'package:restaurant/providers/supplier_provider.dart';
 import 'package:restaurant/screens/cart_screen.dart';
 import 'package:restaurant/screens/login_screens.dart';
 import 'package:restaurant/screens/order_success_screen.dart';
+import 'package:restaurant/screens/splash_screen.dart';
 import 'package:restaurant/screens/supplier_detail_screen.dart';
 import 'package:restaurant/screens/supplier_list_screen.dart';
 
@@ -27,12 +28,14 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         title: 'Supplier App',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
-        initialRoute: '/',
+        initialRoute: '/splash',
         routes: {
+          '/splash': (context) => const SplashScreen(),
           '/': (context) => const LoginScreen(),
           '/suppliers': (context) => const SupplierListScreen(),
           '/supplier-details': (context) => const SupplierDetailScreen(),
